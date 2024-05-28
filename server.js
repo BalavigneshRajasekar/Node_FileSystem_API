@@ -1,7 +1,7 @@
 const express = require("express");
 const fileSystem = require("fs-extra");
 const path = require("path");
-const data = require("./data.json");
+
 const bodyParser = require("body-parser");
 
 const server = express();
