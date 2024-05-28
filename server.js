@@ -8,10 +8,6 @@ const server = express();
 
 server.use(bodyParser.urlencoded({ extended: false }));
 
-server.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "index.html"));
-});
-
 //Help us to format the date with - instead of :
 const formatTime = () => {
   return new Date().toISOString().replace(/:/g, "-");
