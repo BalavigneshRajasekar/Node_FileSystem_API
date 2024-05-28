@@ -8,10 +8,16 @@ The other API endpoint is goint to show all the files created in the folder
 
 ### 1. To create a file use endpoint : "/createFile"
 
-example : API/endpoint  
+example : API/endpoint
+
+Method: POST
+
 https://node-filesystem-api.onrender.com/createFile
 
 ### 2. To retrieve created File use endpoint :"/getFile"
 
-example : API/endpoint  
+example : API/endpoint
+
+Method: GET
+
 https://node-filesystem-api.onrender.com/getFile
