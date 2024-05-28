@@ -5,6 +5,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 
 const server = express();
+const name = "vicky";
 
 server.use(bodyParser.urlencoded({ extended: false }));
 
