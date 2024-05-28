@@ -13,6 +13,7 @@ const formatTime = () => {
   return new Date().toISOString().replace(/:/g, "-");
 };
 
+// This API endpoint "createFile" is used to create a file
 server.post("/createFile", (req, res) => {
   const date = formatTime();
 
@@ -28,6 +29,7 @@ server.post("/createFile", (req, res) => {
   );
 });
 
+// This API endpoint "getFile" is used to serve a file which is created
 server.get("/getFile", async (req, res) => {
   try {
     const files = await fileSystem.readdir(
