@@ -6,6 +6,8 @@ The other API endpoint is goint to show all the files created in the folder
 
 #### API : https://node-filesystem-api.onrender.com
 
+#### Postman Document :https://documenter.getpostman.com/view/35282596/2sA3QwcA49
+
 ### 1. To create a file use endpoint : "/createFile"
 
 example : API/endpoint
